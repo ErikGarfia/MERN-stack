@@ -10,7 +10,7 @@ const ProfileExperience = ({
     <h3 className="text-dark">{company}</h3>
     <p>
       <Moment format="YYYY/MM/DD">{moment.utc(from)}</Moment> -{' '}
-      {!to ? ' Now' : <Moment format="YYYY/MM/DD">{moment.utc(to)}</Moment>}
+      {!to ? ' Actual' : <Moment format="YYYY/MM/DD">{moment.utc(to)}</Moment>}
     </p>
     <p>
       <strong>Cargo: </strong> {title}

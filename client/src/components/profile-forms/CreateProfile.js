@@ -150,7 +150,7 @@ const CreateProfile = ({
           >
             Agrega redes sociales
           </button>
-          <span>Optional</span>
+          <span>Opcional</span>
         </div>
         {displaySocialInputs && (
           <Fragment>

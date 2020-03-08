@@ -10,7 +10,7 @@ const ProfileEducation = ({
     <h3 className="text-dark">{school}</h3>
     <p>
       <Moment format="YYYY/MM/DD">{moment.utc(from)}</Moment> -{' '}
-      {!to ? ' Now' : <Moment format="YYYY/MM/DD">{moment.utc(to)}</Moment>}
+      {!to ? ' Actual' : <Moment format="YYYY/MM/DD">{moment.utc(to)}</Moment>}
     </p>
     <p>
       <strong>Carrera: </strong> {degree}

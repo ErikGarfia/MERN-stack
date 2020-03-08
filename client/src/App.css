@@ -1,6 +1,7 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
+  --primary-color: #ffd900;
+  --second-color: #b50000;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -22,7 +23,7 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--second-color);
   text-decoration: none;
 }
 
